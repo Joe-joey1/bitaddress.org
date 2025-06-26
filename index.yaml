@@ -74,4 +74,4 @@ components:
       in: header
       name: X-Api-Key
 security:
-  - ApiKey: []
+  - ApiKey: 
