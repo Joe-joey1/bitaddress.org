@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch JavaScript File",
+      "program": "${workspaceFolder}/${input:jsFileToDebug}",
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "jsFileToDebug",
+      "type": "promptString",
+      "description": "Enter the relative path to the JavaScript file you want to debug (e.g., src/ninja.singlewallet.js)"
+    }
+  ]
+}
